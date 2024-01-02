@@ -158,3 +158,18 @@
     color: #334563;
   }
 }
+.services__button-wrapper:hover .services__button {
+  background-color: #3d04f8;
+  transform: scale(1.05);
+}
+
+.services__button-wrapper:hover .services__learn-more {
+  color: #3d04f8;
+}
+
+.services__button-wrapper {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
